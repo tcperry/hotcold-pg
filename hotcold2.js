@@ -32,6 +32,7 @@ $('input').keypress(function(e){
         
 	    function startOver() {
 			      ans = Math.floor((Math.random()*50)+1);
+				  $("#userguess").val("");
 				  return hotCold();
 			
 			   } //close startOver function
